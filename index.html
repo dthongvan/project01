@@ -1,0 +1,445 @@
+<!-- last-update 2019/4/19 -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>トップページ</title>
+    <meta name="description" content="{$c8_Description}">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap" rel="stylesheet">
+    <link href="css/module.css" rel="stylesheet" type="text/css">
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <!-- {$c8_CommonCSS}
+	<link href="{$c8_RootPath}css/style.css" rel="stylesheet" type="text/css">
+	{$c8_PageCss} -->
+</head>
+
+<body class="drawer drawer--left">
+    <h1 class="seotext">SEOテキストが入ります</span>
+    </h1>
+    <div id="wrap">
+        <button type="button" class="drawer-toggle drawer-hamburger">
+		<span class="sr-only"></span>
+		<span class="drawer-hamburger-icon"></span>
+	</button>
+        <nav class="drawer-nav">
+            <ul class="drawer-menu">
+                <li>
+                    <ul class="sp-nav-list">
+                        <li class="sp-nav-list__item" data-current="tire_change">
+                            <a class="sp-nav-list__link" href="{$c8_RootPath}tire_change.php">タイヤ交換</a>
+                        </li>
+                        <li class="sp-nav-list__item" data-current="other">
+                            <a class="sp-nav-list__link" href="{$c8_RootPath}other.php">その他サービス</a>
+                        </li>
+                        <li class="sp-nav-list__item" data-current="price">
+                            <a class="sp-nav-list__link" href="{$c8_RootPath}price.php">料金表</a>
+                        </li>
+                        <li class="sp-nav-list__item" data-current="flow">
+                            <a class="sp-nav-list__link" href="{$c8_RootPath}flow.php">作業の流れ</a>
+                        </li>
+                        <li class="sp-nav-list__item" data-current="works">
+                            <a class="sp-nav-list__link" href="{$c8_RootPath}works.php">施工事例</a>
+                        </li>
+                        <li class="sp-nav-list__item" data-current="voice">
+                            <a class="sp-nav-list__link" href="{$c8_RootPath}voice.php">お客様の声</a>
+                        </li>
+                    </ul>
+                    <!-- ~*~*~*~*~ contentslist start ~*~*~*~*~ -->
+                    <!-- {$c8_ContentsList} -->
+                    <ul class="contentslist">
+                        <li>
+                            <a href="#">リンクありカテゴリー</a>
+                            <ul class="sublist">
+                                <li class="first"><a href="#">ページ名が入ります</a></li>
+                                <li><a href="#">ページ名が入ります</a></li>
+                            </ul>
+                        </li>
+                        <li class="first">リンクなしカテゴリー
+                            <ul class="sublist">
+                                <li class="first"><a href="#">ページ名が入ります</a></li>
+                                <li><a href="#">ページ名が入ります</a></li>
+                            </ul>
+                        </li>
+                        <li class="last">
+                            <img src="img/cat01.jpg" alt="リンクなし">
+                        </li>
+                    </ul>
+                    <!-- ~*~*~*~*~ contentslist end ~*~*~*~*~ -->
+                </li>
+            </ul>
+        </nav>
+        <header id="header">
+            <p class="h-logo_sp wink">
+                <a class="h-logo__link" href="https://{$c8_SiteUrl}/index.php"><img src="img/h_logo.svg" alt="{$c8_CompanyName}"></a>
+            </p>
+            <div class="h-box">
+                <div class="h-box-text">
+                    <p class="h-text">佐世保市で格安・迅速・持ち込みOKのタイヤ交換なら！</p>
+                    <p class="h-logo wink">
+                        <a class="h-logo__link" href="https://{$c8_SiteUrl}/index.php"><img src="./img/h_logo.svg" alt="{$c8_CompanyName}"></a>
+                    </p>
+                </div>
+                <div class="h-nav">
+                    <div class="h-nav__inner">
+                        <nav class="gnav">
+                            <ul class="h-banner">
+                                <li> <a href="{$c8_RootPath}faq.php">会社概要</a> </li>
+                                <li> <a href="{$c8_RootPath}info.php">お問い合わせ</a></li>
+                            </ul>
+                            <ul class="gnav-list">
+                                <li class="gnav-list__item" data-current="tire_change">
+                                    <a class="gnav-list__link" href="{$c8_RootPath}tire_change.php">タイヤ交換</a>
+                                </li>
+                                <li class="gnav-list__item" data-current="other">
+                                    <a class="gnav-list__link" href="{$c8_RootPath}other.php">その他サービス</a>
+                                </li>
+                                <li class="gnav-list__item" data-current="price">
+                                    <a class="gnav-list__link" href="{$c8_RootPath}price.php">料金表</a>
+                                </li>
+                                <li class="gnav-list__item" data-current="flow">
+                                    <a class="gnav-list__link" href="{$c8_RootPath}flow.php">作業の流れ</a>
+                                </li>
+                                <li class="gnav-list__item" data-current="works">
+                                    <a class="gnav-list__link" href="{$c8_RootPath}works.php">施工事例</a>
+                                </li>
+                                <li class="gnav-list__item" data-current="voice">
+                                    <a class="gnav-list__link" href="{$c8_RootPath}voice.php">お客様の声</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="h-btn">
+                            <a href="#" target="_blank"><span class="sp">LINEで依頼する</span><span class="sub">相談のみも歓迎！</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="maining">
+            <div class="maining_box">
+                <p class="img"><img src="img/main_img.png" alt="メイン画像"></p>
+                <p class="text">佐世保市で持ち込みタイヤの組み換えや、<br/>履き替えはお任せください。ボディ磨きや<br/>フィルム貼り付けも承ります。</p>
+            </div>
+            <p class="main_sp"><img src="img/main_sp.jpg" alt=""></p>
+        </div>
+        <div class="main">
+            <div class="content">
+                <!-- ~*~*~*~*~ module start ~*~*~*~*~ -->
+                <!-- {$c8_Contents} -->
+
+                <div class="module">
+                    <div class="index-replacement">
+                        <div class="box-info">
+                            <div class="box-img">
+                                <p><img src="./img/index_img10.jpg" alt=""></p>
+                                <p><img src="./img/index_img11.jpg" alt=""></p>
+                            </div>
+                            <div class="box-text">
+                                <p class="note"><span>持ち込みタイヤ大歓迎</span></p>
+                                <p class="title">佐世保市でお得にタイヤ交換！</p>
+                                <p class="text">せっかくお手軽なタイヤを購入しても、一般のカー用品店・ディーラーだと対応不可もしくは交換作業料が割高になります。当店では持ち込みのタイヤ交換を主に行いますので、お得に素早く交換可能です。タイヤの履き替え・組み換えどちらも承ります！ また、中古タイヤを取り扱っておりますので、実際に商品をご覧いただきながらのご説明が可能です。「どんなタイヤがいいか分からない」という方はお気軽にお申し付けください。 タイヤ交換だけでなく、フィルム貼りや磨きも承りますので、佐世保市でお車・タイヤのメンテンナンスはお任せください！
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box-midle">
+                            <p class="title">比べてください！タイヤ1本あたりの作業料金</p>
+                        </div>
+                        <div class="box-table">
+                            <dl> <dt class="title">一般ディーラー</dt>
+                                <dd><span class="name"> 15インチ</span> <span class="price">2,000円～3,000円</span></dd>
+                                <dd><span class="name">16インチ以上</span> <span class="price">2,500円～3,500円</span></dd>
+                            </dl>
+                            <dl> <dt class="title">CLOUD9</dt>
+                                <dd> <span class="name">12インチ～15インチ</span> <span class="price">1,100円</span></dd>
+                                <dd><span class="name">16インチ～18インチ</span> <span class="price">1,650円</span></dd>
+                            </dl>
+                        </div>
+                        <p class="btn"><a href="#">料金について詳しく</a></p>
+                    </div>
+
+                </div>
+
+                <div class="module mod_h2">
+                    <h2>施工実績</h2>
+                </div>
+                <div class="mod_gallery_list">
+                    <div id="gallery" class="fixHeight">
+                        <dl>
+                            <dd class="img">
+                                <a href="gallery_detail.html"><img src="img/index_img12.jpg" width="188" alt=""></a>
+                            </dd>
+                            <dt><a href="gallery_detail.html">記事のタイトルが入ります</a></dt>
+
+                        </dl>
+                        <dl>
+                            <dd class="img">
+                                <a href="gallery_detail.html"><img src="img/square260.jpg" width="188" alt=""></a>
+                            </dd>
+                            <dt><a href="gallery_detail.html">記事のタイトルが入ります</a></dt>
+
+                        </dl>
+                        <dl>
+                            <dd class="img">
+                                <a href="gallery_detail.html"><img src="img/square260.jpg" width="188" alt=""></a>
+                            </dd>
+                            <dt><a href="gallery_detail.html">記事のタイトルが入ります</a></dt>
+
+                        </dl>
+                    </div>
+                    <p class="pager">
+                        <a href="gallery.html">もっと見る</a>
+                    </p>
+                </div>
+                <div class="module mod_h2">
+                    <h2>当店のタイヤ交換が選ばれる理由</h2>
+                </div>
+                <div class="module">
+                    <div class="index-chosen">
+                        <div class="box">
+                            <div class="info">
+                                <p class="title">
+                                    国産車から輸入車までどんな車種へも対応
+                                </p>
+                                <p class="text">
+                                    国産の軽自動車から輸入の大型車まで、タイヤ交換いたします。ど<br/>のような車種でもタイヤの持ち込みOKです！<br/> 「料金が高い」「他店で断られた」といった場合には、ぜひ当店を<br/>ご利用ください。
+                                </p>
+                            </div>
+                            <p class="img"><img src="img/index_img13.jpg" alt=""></p>
+
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <p class="title">
+                                    タイヤ選びも任せられる
+                                </p>
+                                <p class="text">
+                                    カー用品店・ネットで好みに合ったタイヤが見つからない事はあり<br/>ませんか？<br/> 当店では中古タイヤを取扱っておりますので、ご予算・ご希望に合<br/>わせたタイヤ選びもお任せください！どのタイヤが合うか分からな<br/>い・迷っている方をしっかりサポートいたします。
+                                </p>
+                            </div>
+                            <p class="img"><img src="img/index_img14.jpg" alt=""></p>
+                        </div>
+                        <div class="box">
+                            <div class="info">
+                                <p class="title">
+                                    分かりやすい料金設定
+                                </p>
+                                <p class="text">
+                                    サイズごとに分かりやすく、追加料金が発生しない料金設定です。<br/>作業工賃が一目で分かりますので、初めてご利用の方もご安心くだ<br/> さい。<br/>タイヤ選びからご予算に合わせてご提案いたしますので、お気軽に<br/>ご相談ください。
+                                </p>
+                            </div>
+                            <p class="img"><img src="img/index_img15.jpg" alt=""></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="module">
+                    <div class="mod_banner">
+                        <div class="box-text">
+                            <div class="article">
+                                <p class="title">愛車のタイヤ交換時期をご存知ですか？</p>
+                                <p class="text">タイヤは車を安全に運転するための土台となる、とても重要な<br/>パーツです。タイヤのメンテナンスや空気圧・スリップサイン<br/>の確認を怠れば、大きな事故に繋がる危険もあります。運転中<br/>の違和感や気になることがあればいつでもご相談ください。</p>
+                            </div>
+                            <p class="image"><img src="img/banner_img02.svg" alt=""></p>
+                        </div>
+
+                        <div class="box-info">
+                            <p class="title">タイヤの交換時期の確認など、相談のみも歓迎です！</p>
+                            <div class="sub-box">
+                                <div class="tel-time">
+                                    <p class="tel"><span>090-2504-2513</span></p>
+                                    <p class="time">
+                                        営業時間｜9:30～17:30／火曜定休
+                                    </p>
+                                </div>
+                                <p class="line">
+                                    <a href="#"><span>LINEで依頼する</span></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="module">
+                    <div class="index-instagram">
+                        <div class="instagram">
+                            <p class="title">INSTAGRAM</p>
+                            <p class="btn">
+                                <a href="https://www.instagram.com/cloud9_2021_/">@cloud9_2021_ </a>
+                            </p>
+                            <p class="text">
+                                作業の様子や入荷情報などを 発信しています！
+                            </p>
+                        </div>
+                        <ul class="list">
+                            <li>
+                                <a href="#"> <img src="img/index_img16.jpg" alt=""> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="img/index_img17.jpg" alt=""> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="img/index_img18.jpg" alt=""> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="img/index_img19.jpg" alt=""> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="img/index_img20.jpg" alt=""> </a>
+                            </li>
+                            <li>
+                                <a href="#"> <img src="img/index_img21.jpg" alt=""> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="module mod_h2">
+                    <h2>新着情報・お知らせ</h2>
+                </div>
+                <div class="mod_news_list">
+                    <div id="news" class="news_list">
+                        <dl>
+                            <dt>0000年00月00日 15:28:46</dt>
+                            <dd><a href="news_detail.html">●名様限定！フロントガラス磨きのお試しキャンペーン、○○円OFF！</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>0000年00月00日 15:28:46</dt>
+                            <dd><a href="news_detail.html">●●のホイールが入荷しました。</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>0000年00月00日 15:28:46</dt>
+                            <dd><a href="news_detail.html">定期的な空気圧チェックも当店へお任せ！</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>0000年00月00日 15:28:46</dt>
+                            <dd><a href="news_detail.html">こんなサインはタイヤ交換時期かも？</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>0000年00月00日 15:28:46</dt>
+                            <dd><a href="news_detail.html">施工実績を更新しました。</a></dd>
+                        </dl>
+                    </div>
+                    <p class="pager">
+                        <a href="news.html">もっと見る</a>
+                    </p>
+                </div>
+
+                <!-- ~*~*~*~*~ module end ~*~*~*~*~ -->
+            </div>
+            <!-- .content -->
+            <div class="side">
+                <!-- ~*~*~*~*~ contentslist start ~*~*~*~*~ -->
+                <!-- {$c8_ContentsList} -->
+                <ul class="s-link">
+                    <li>
+                        <a href="#"> <img src="img/s_bunner01.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"> <img src="img/s_bunner02.png" alt=""></a>
+                    </li>
+                </ul>
+                <p class="s-btn"><a href="{$c8_RootPath}faq.php">よくある質問</a></p>
+                <ul class="contentslist">
+                    <li>
+                        <a href="#">リンクありカテゴリー</a>
+                        <ul class="sublist">
+                            <li class="first"><a href="#">ページ名が入ります</a></li>
+                            <li><a href="#">ページ名が入ります</a></li>
+                        </ul>
+                    </li>
+                    <li class="first">リンクなしカテゴリー
+                        <ul class="sublist">
+                            <li class="first"><a href="#">ページ名が入ります</a></li>
+                            <li><a href="#">ページ名が入ります</a></li>
+                        </ul>
+                    </li>
+                    <li class="last">
+                        <img src="img/cat01.jpg" alt="リンクなし">
+                    </li>
+                </ul>
+                <div class="s-info">
+                    <p class="s-logo">
+                        <a href="https://{$c8_SiteUrl}/index.php"> <img src="img/s_logo.svg" alt=""></a>
+                    </p>
+                    <p class="s-add">〒857-6404 長崎県佐世保市世知原町大田573-1</p>
+                    <p class="s-text">持ち込みタイヤOKだから、一般ディーラーよりも格安！佐世保市でタイヤ交換なら【CLOUD9】へお任せください。フィルム貼り・磨きも承ります！</p>
+                    <p class="s-tel"><span>090-2504-2513</span></p>
+                    <p class="s-time">営業時間｜9:30～17:30／火曜定休</p>
+                    <p class="s-line">
+                        <a href="#" target="_blank"><span class="sp">LINEで簡単依頼</span><span class="sub">相談のみも歓迎！</span></a>
+                    </p>
+                    <p class="s-mail">
+                        <a href="{$c8_RootPath}contact.php"><span>メールで依頼する</span> </a></p>
+                    <p class="s-att">※セールス・勧誘はお断りしております</p>
+                </div>
+            </div>
+            <!-- ~*~*~*~*~ contentslist end ~*~*~*~*~ -->
+        </div>
+
+        <!-- .main -->
+        <footer class="footer">
+            <div class="footer__map map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.1915173277953!2d129.73537311744383!3d33.261478099999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356a91808b4c3eed%3A0x7681de4fc3a7225f!2z44K_44Kk44Ok44K344On44OD44OXIOOCr-ODqeOCpuODiTk!5e0!3m2!1sja!2sjp!4v1649835399093!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="f-box">
+                <div class="f-box__left">
+                    <p class="f-logo "><img src="./img/f_logo.svg " alt=" "></p>
+                    <p class="f-info ">
+                        〒857-6404 長崎県佐世保市世知原町大田573-1
+                        <br/> TEL｜090-2504-2513
+                        <br/> 営業時間｜9:30～17:30／火曜定休
+                        <br/>
+                        <a href="{$c8_RootPath}contact.php ">>メールでのご依頼はこちら</a>
+                    </p>
+                    <p class="f-att ">
+                        ※セールス・勧誘はお断りしております
+                    </p>
+                </div>
+                <div class="f-box__right ">
+                    <ul class="f-nav ">
+                        <li class="f-nav__item "><a class="f-nav__link " href="https://{$c8_SiteUrl}/index.php">ホーム</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}tire_change.php ">タイヤ交換</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}other.php ">その他サービス</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}price.php ">料金表</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}flow.php ">作業の流れ</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}works.php ">施工事例</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}voice.php ">お客様の声</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}faq.php ">よくある質問</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}info.php ">会社概要</a></li>
+                        <li class="f-nav__item "><a class="f-nav__link " href="{$c8_RootPath}contact.php ">お問い合わせ</a></li>
+                    </ul>
+                    <ul class="f-banner">
+                        <li class="f-banner__item">
+                            <a href="https://twitter.com/CLOUD9_1231" target="_blank "> <img src="img/icon_twitter.svg" alt=" "></a>
+                        </li>
+                        <li class="f-banner__item">
+                            <a href="https://www.instagram.com/cloud9_2021_/" target="_blank "> <img src="img/icon_instagram.svg" alt=" "></a>
+                        </li>
+                        <li class="f-banner__item">
+                            <a href="#" target="_blank "> <img src="img/icon_line.svg" alt=" "></a>
+                        </li>
+                    </ul>
+                    <p class="f-text">持ち込みタイヤOK！佐世保市でお得にタイヤ交換なら【CLOUD9】へお任せ。</p>
+                    <p class="copyright "><small>&copy;CLOUD9. All Rights Reserved.</small></p>
+                </div>
+            </div>
+    </div>
+    <p class="pagetop">
+        <a href="#header"><img src="img/pagetop.svg" alt="ページの先頭へ"></a>
+    </p>
+
+    </div>
+    <script src="js/common.js"></script>
+    <script src="js/function.js"></script>
+    <!-- <script src="{$c8_RootPath}js/common.js"></script>
+<script src="{$c8_RootPath}js/function.js"></script>
+{$c8_TrackingTag} -->
+</body>
+
+</html>
